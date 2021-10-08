@@ -12,7 +12,7 @@ st.subheader("by Mikio Kubo")
 # '''
 
 df = px.data.iris()
-df
+# df
 
 # x = 10
 # 'x =', x  
@@ -21,11 +21,11 @@ df
 
 # st.markdown("## マークダウンで書く $x^2$")
 
-# st.write(df.head())
+st.write(df.head())
 
 # st.table(df.head())
 
-# st.write(px.scatter(df,x="sepal_length",y="sepal_width",color="species"))
+st.write(px.scatter(df,x="sepal_length",y="sepal_width",color="species"))
 
 # if st.button('Say hello'):
 #     st.write('こんにちわ')
