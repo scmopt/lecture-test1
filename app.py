@@ -27,10 +27,10 @@ st.write(df.head())
 
 st.write(px.scatter(df,x="sepal_length",y="sepal_width",color="species"))
 
-# if st.button('Say hello'):
-#     st.write('こんにちわ')
-# else:
-#     st.write('Goodbye')
+if st.button('Say hello'):
+    st.write('こんにちわ')
+else:
+    st.write('Goodbye')
 
 # agree = st.checkbox('チェックしてください')
 # if agree:
