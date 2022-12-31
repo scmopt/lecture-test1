@@ -17,9 +17,9 @@ df = px.data.iris()
 # x = 10
 # 'x =', x  
 
-# st.write("何でも書ける")
+st.write("何でも書ける")
 
-# st.markdown("## マークダウンで書く $x^2$")
+st.markdown("## マークダウンで書く $x^2$")
 
 st.write(df.head())
 
