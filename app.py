@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.title("Streamlit Demo")
-st.subheader("by Mikio Kubo")
+st.subheader("by 久保幹雄")
 
 # '''
 # ### 文字列はマークダウン言語
